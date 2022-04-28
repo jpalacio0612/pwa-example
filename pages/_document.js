@@ -8,43 +8,42 @@ class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" />
           <link rel="apple-touch-icon" href="/icon-192x192.png"></link>
           <meta name="theme-color" content="#fff" />
-          <meta name="apple-mobile-web-app-capable" content="yes"></meta>
           <link
             rel="apple-touch-startup-image"
-            href="/images/apple_splash_2048.png"
+            href="/apple_splash_2048.png"
             sizes="2048x2732"
           />
           <link
             rel="apple-touch-startup-image"
-            href="/images/apple_splash_1668.png"
+            href="/apple_splash_1668.png"
             sizes="1668x2224"
           />
           <link
             rel="apple-touch-startup-image"
-            href="/images/apple_splash_1536.png"
+            href="/apple_splash_1536.png"
             sizes="1536x2048"
           />
           <link
             rel="apple-touch-startup-image"
-            href="/images/apple_splash_1125.png"
+            href="/apple_splash_1125.png"
             sizes="1125x2436"
           />
           <link
             rel="apple-touch-startup-image"
-            href="/images/apple_splash_1242.png"
+            href="/apple_splash_1242.png"
             sizes="1242x2208"
           />
           <link
             rel="apple-touch-startup-image"
-            href="/images/apple_splash_750.png"
+            href="/apple_splash_750.png"
             sizes="750x1334"
           />
           <link
             rel="apple-touch-startup-image"
-            href="/images/apple_splash_640.png"
+            href="/apple_splash_640.png"
             sizes="640x1136"
           />
-          <link
+          {/* <link
             href="splashscreens/iphone5_splash.png"
             media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
             rel="apple-touch-startup-image"
@@ -93,7 +92,7 @@ class MyDocument extends Document {
             href="splashscreens/ipadpro2_splash.png"
             media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)"
             rel="apple-touch-startup-image"
-          />
+          /> */}
         </Head>
         <body>
           <Main />
