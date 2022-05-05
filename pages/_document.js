@@ -10,6 +10,11 @@ class MyDocument extends Document {
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <link
             rel="apple-touch-startup-image"
+            href="https://cdn.wallpapersafari.com/49/81/Zq1Fvc.jpg"
+            // media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+          />
+          {/* <link
+            rel="apple-touch-startup-image"
             href="/apple-splash-2048-2732.jpg"
             media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
           />
@@ -137,7 +142,7 @@ class MyDocument extends Document {
             rel="apple-touch-startup-image"
             href="/apple-splash-1136-640.jpg"
             media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
-          />
+          /> */}
         </Head>
         <body>
           <Main />
